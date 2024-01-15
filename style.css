@@ -36,7 +36,7 @@ main{
   position: relative;
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
 
 #box3, #box7, #box10, #box11, #box12, #box15 {
@@ -59,6 +59,7 @@ main{
   height: 50%;
   text-align: center;
   border: none;
+  font-size: 2rem;
 }
 
 .special {
@@ -66,7 +67,7 @@ main{
   font-size: 2rem;
 }
 
-@media screen and (min-width: 475px ) {
+@media only screen and (min-width: 475px ) {
   html {
     font-size: 16px;
   }
